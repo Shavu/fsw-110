@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(26, 9, 44);
+}
+#inputsForm{
+    border: 6px solid rgb(80, 124, 80);
+    width: 30%;
+    padding: 15px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(2, 26, 27);
+}

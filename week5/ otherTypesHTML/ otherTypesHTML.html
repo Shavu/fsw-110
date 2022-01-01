@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week5 Using Other Types of HTML Inputs</title>
+    <link rel="stylesheet" type="text/css" href="./ otherTypesHTML.css">
+</head>
+<body>
+    <div id ="inputsForm">
+        <form name="form" id="form">
+            <label>First Name: </label> <br>
+            <input type = "text" id = "firstnamebox" required> <br>
+            <br>
+            <label>Last Name: </label> <br>
+            <input type = "text" id = "lastnamebox" required> <br>
+            <br>
+            <label> Age: </label> <br>
+            <input type = "text" id="agebox" required> <br>
+            <br>
+            <label>Have you shopped our page before?</label> <br>
+            <br>
+            Yes:<input type="radio" name="decision" value="yes" />
+            No: <input type="radio" name="decision" value="no" /><br>
+            <br>
+            <label>Please select three automobiles :</label><br>
+            <br>
+            <input type="checkbox" id="Honda" name="automobile" value="Honda">
+            <label for="Honda">Honda</label><br>
+            <input type="checkbox" id="Acura" name="automobile" value="Acura">
+            <label for="Acura">Acura</label><br>
+            <input type="checkbox" id="BMW" name="automobile" value="BMW">
+            <label for="BMW">BMW</label><br>
+            <input type="checkbox" id="Audi" name="automobile" value="Audi">
+            <label for="Audi">Audi</label><br>
+            <input type="checkbox" id="Lexus" name="automobile" value="Lexus">
+            <label for="Lexus">Lexus</label><br>
+            <input type="checkbox" id="Land Rover" name="automobile" value="Land Rover">
+            <label for="Land Rover">Land Rover</label><br>
+            <br>
+    
+            <select name="options" id="options" form="form" required>
+                <option value="veryLikely">Very Likely</option>
+                <option value="somewhat-likely">Somewhat Likely</option>
+                <option value="notLikely">Not Likely</option>
+            </select><br><br>
+    
+            <button id = "submit" type="submit" name="submit">Submit</button>
+        </form>
+    </div> 
+    <script type="text/javascript" src ="./ otherTypesHTML.js"></script>
+</body>
+</html>
+<br>
+<footer>FSW-110 week5 Using Other Types of HTML Inputs <br> &copy;2021 by Travis M.
+
+    https://github.com/Shavu/fsw-110.git
