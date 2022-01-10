@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Coffee Shop</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1> Caffination Station</h1>
+        </div>
+    </header>
+
+    <main class="main-grid">
+        <form action="">
+            <div class="cart-row">
+                <div class="info">
+                    <span class="cart-item cart-header cart-column"></span>
+                    <span class="cart-price cart-header cart-column"></span>
+                    <span class="cart-quantity cart-header cart-column"></span>
+                </div>
+            </div>
+            <div class="mycart">
+                <div class="cart-row">
+                    <div class="coffee">
+                        <div class="cart-item coffee-column">
+                            <img class="item-image" src="coffee.jpg" alt="Coffee">
+                            <span class="cart-item-title">Coffee</span>
+                        </div>
+                        <span class="itemPrice cart-column">$11.00</span>
+                        <div class="cart-quantity cart-column">
+                            <input class="amountInput" type="number" min="0" value="0">
+                        </div>
+                    </div>
+                </div>
+                <div class="mycart">
+                    <div class="cart-row">
+                        <div class="tea">
+                            <div class="cart-item tea-column">
+                                <img class="item-image" src="tea.jpg" alt="Tea">
+                                <span class="cart-item-title">Tea</span>
+                            </div>
+                            <span class="itemPrice cart-column">$7.00</span>
+                            <div class="cart-quantity cart-column">
+                                <input class="amountInput" type="number" min="0" value="0">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="mycart">
+                        <div class="cart-row">
+                            <div class="bagel">
+                                <div class="cart-item bagel-column">
+                                    <img class="item-image" src="bagel.jpg" alt="Everything Bagel">
+                                    <span class="cart-item-title">Everything Bagel</span>
+                                </div>
+                                <span class="itemPrice cart-column">$3.00</span>
+                                <div class="cart-quantity cart-column">
+                                    <input class="amountInput" type="number" min="0" value="0">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="orderSection">
+                            <div class="cart-total">
+                                <strong class="total-title">Total</strong>
+                                <span class="total-price" placeholder="0.00">$0.00</span>
+                            </div>
+                            <button class="btn btn-order" type="button">Place Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        caffinationStation1@fakeemail.com <br> http://127.0.0.1:5501/websiteForm/index.html <br> 123 W 456 S BLDG 2 Suite 3 <br> Daisy, Disneyland 12345
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

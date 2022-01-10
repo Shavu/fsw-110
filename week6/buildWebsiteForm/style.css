@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Amita&family=Annie+Use+Your+Telescope&family=Bad+Script&family=BenchNine:wght@300&family=Caveat&family=Cinzel&family=Cinzel+Decorative&family=Comforter&family=Coming+Soon&family=Corinthia&family=Dancing+Script&family=Fleur+De+Leah&family=Fredericka+the+Great&family=Fuzzy+Bubbles&family=Grey+Qo&family=Handlee&family=Herr+Von+Muellerhoff&family=Indie+Flower&family=Just+Another+Hand&family=Kalam:wght@300&family=Kings&family=Kristi&family=Lateef&family=Lobster+Two&family=Luxurious+Script&family=McLaren&family=Meow+Script&family=Merienda&family=Monsieur+La+Doulaise&family=Montserrat+Alternates:wght@100&family=Nanum+Pen+Script&family=Nothing+You+Could+Do&family=Patrick+Hand&family=Playfair+Display&family=Press+Start+2P&family=Redacted+Script:wght@300&family=Reenie+Beanie&family=Shadows+Into+Light&family=Shadows+Into+Light+Two&family=Shalimar&family=Shippori+Mincho&family=Stardos+Stencil&family=Yuji+Boku&display=swap');
+body{
+    background-color: var(--main-color);
+}
+:root{
+    --main-color: rgb(114, 90, 62);
+    --secondary-color: rgb(78, 64, 64);
+    --thrid-color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+}  
+img {
+    width: 150px;
+    padding-right: 25px;
+    margin-top: 25px;
+}
+.bagel > img{
+    width: 200px;
+}
+body {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background-color: var(--main-color);
+}
+​form{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+button {
+    height: 40px;
+    margin-left: 5px;
+    opacity: 0.5;
+    background-color: rgb(161, 157, 150);
+}
+​
+footer {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+​h1 {
+    text-align: center;
+    background-color: var(--secondary-color);
+    text-decoration-color: whitesmoke;
+}
+​
+header>div {
+    width: 20vw;
+    border-radius: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto", sans-serif;
+}
+
+@media only screen and (min-width:800px){
+    h1{
+        color: whitesmoke;
+    }
+    .mycart{
+        display: flex;
+        width: 100%;
+    }
+    .btn{
+        justify-self: center;
+        color: whitesmoke;
+        padding: 10px;
+        padding-bottom: 40px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: rgb(161, 157, 150);
+    }
+    .totalPrice{
+        background-color: rgb(161, 157, 150);
+
+    }
+    .main-grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .coffee{
+        grid-template-columns: 1/2;
+        color: whitesmoke;
+    }
+    .tea{
+        grid-template-columns: 2/3;
+        color: whitesmoke;
+    }
+    .bagel{
+        grid-template-columns: 3/4;
+        color: whitesmoke;
+    }
+    .orderSection{
+        grid-template-columns: 4/5;
+        color: whitesmoke;
+    }
+    footer{
+        color: whitesmoke;
+    }
+}
